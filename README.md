@@ -1,6 +1,11 @@
 # MultiQRCode-Hackathon
 ---
+I used YOLOv8n for this project because it provides an excellent balance between speed and accuracy, making it suitable for real-time object detection tasks. YOLOv8n is a lightweight nano version optimized for deployment on edge devices and resource-constrained environments, without compromising detection precision. Its improved architecture enhances feature extraction and multi-scale object detection, which is crucial for detecting small and varied QR codes. Additionally, YOLOv8n benefits from modern training approaches and efficient inference, enabling faster training and real-time prediction.
+
+
 All training and validation results are saved in the respective folders named `training results` and `validation results` in the project directory.
+Note - Complete model training and inferencing is done in Google Colab using T4 GPU for faster computation.
+
 
 # Project Structure
 ```
@@ -123,3 +128,11 @@ For inference, simply run the code by changing the image path. A JSON file conta
 - Manual annotation was time-consuming.
 - Maintaining consistent augmentation settings for realistic variability.
 - Balancing augmentation to avoid overfitting or underfitting.
+
+## Drive Links for Project Outputs
+
+- Predicted output for the test dataset can be found here:  
+  [Test Dataset Predicted Output](https://drive.google.com/drive/folders/1Fo3eivF_HJz9ff-0cFh_RHTAmaq9vV7T?usp=sharing)
+
+- Complete drive link containing all the files and work done:  
+  [Complete Project Drive](https://drive.google.com/drive/folders/1UFy6EzzRfIaDCTCt5iKeTQWOHUIq6_O9?usp=sharing)
