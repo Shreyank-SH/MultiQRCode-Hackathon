@@ -86,12 +86,11 @@ Both annotation and training use **YOLO format label files**:
 git clone https://github.com/Shreyank-SH/MultiQRCode-Hackathon.git
 cd MultiQRCode-Hackathon
 
-text
 - Ensure Python 3.8+ is installed.
 - Install requirements (add your actual requirements if needed):
 pip install -r requirements.txt
 
-- Download and extract the Roboflow-exported dataset into the `data/` directory.
+- Download and extract the Roboflow-exported dataset into the working directory.
 
 ## Training
 
