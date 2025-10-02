@@ -2,6 +2,27 @@
 ---
 All training and validation results are saved in the respective folders named `training results` and `validation results` in the project directory.
 
+# Project Structure
+```
+MultiQRCode-Hackathon/
+│
+├── Colab_Workings/ # Jupyter notebooks for training, inference, evaluation
+│ ├── train.ipynb
+│ ├── infer.ipynb
+│ └── evaluate.ipynb
+│
+├── Training Results/ # Folder containing all training result files and data
+│
+├── Validation Results/ # Folder containing all validation result files and data
+│
+├── best.pt # Trained model weights file
+├── data.yaml # Dataset configuration file for YOLO training
+├── evaluate.py # Evaluation script for model performance
+├── infer.py # Inference script for running predictions on images
+├── train.py # Script to train the model
+├── requirements.txt # Python dependencies and libraries required
+└── README.md # Project documentation file
+```
 ## Data Preprocessing
 
 Data preprocessing for this project was done manually using **Roboflow**:
@@ -48,14 +69,15 @@ Data preprocessing for this project was done manually using **Roboflow**:
 ## Output Format
 
 Both annotation and training use **YOLO format label files**:
-
+```
 0 0.342 0.487 0.123 0.156
-
 0 0.678 0.234 0.098 0.134
+```
 
-
-**Format:**  
-<class_id> <x_center> <y_center> < width> < height>
+**Format:**
+```
+<class_id> <x_center> <y_center> <width> <height>
+```
 ---
 
 ## Installation
