@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/1pharma/Train_clr/images #Path to Train Dataset
+val: /content/drive/MyDrive/1pharma/Train_clr/images # Path to Validation Dataset - As we are using the same dataset we provide train dataset path only
+test: /content/drive/MyDrive/1pharma/Test_clr/images # Path to Test Dataset
+
+nc: 1
+names: ['QR']

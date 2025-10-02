@@ -1,0 +1,12 @@
+ultralytics==8.3.204
+torch==2.8.0
+opencv-python
+pyyaml
+matplotlib
+pillow
+requests
+scipy
+psutil
+polars
+pyzbar
+numpy
