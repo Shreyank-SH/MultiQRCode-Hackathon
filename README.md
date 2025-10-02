@@ -16,6 +16,8 @@ MultiQRCode-Hackathon/
 │ ├── infer.ipynb
 │ └── evaluate.ipynb
 │
+│── Sample Outputs/ # Folder Contains few sample output json files
+│
 ├── Training Results/ # Folder containing all training result files and data
 │
 ├── Validation Results/ # Folder containing all validation result files and data
@@ -115,7 +117,7 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
 
 ## Inference
 
-For inference, simply run the code by changing the image path. A JSON file containing the detection results will be generated and downloaded automatically.
+For inference, simply run the code by changing the image path. This JSON file contains the detection results and is automatically saved and downloaded, making it easy to use for further analysis or integration with other applications.
 
 ## Limitations
 
