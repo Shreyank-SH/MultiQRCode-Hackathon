@@ -2,6 +2,7 @@
 ---
 I used YOLOv8n for this project because it provides an excellent balance between speed and accuracy, making it suitable for real-time object detection tasks. YOLOv8n is a lightweight nano version optimized for deployment on edge devices and resource-constrained environments, without compromising detection precision. Its improved architecture enhances feature extraction and multi-scale object detection, which is crucial for detecting small and varied QR codes. Additionally, YOLOv8n benefits from modern training approaches and efficient inference, enabling faster training and real-time prediction.
 
+Note - Implemented both Stage 1 and Stage 2 decoding of qr code in the same infer.py
 
 All training and validation results are saved in the respective folders named `training results` and `validation results` in the project directory.
 Note - Complete model training and inferencing is done in Google Colab using T4 GPU for faster computation.
