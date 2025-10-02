@@ -43,8 +43,6 @@ Data preprocessing for this project was done manually using **Roboflow**:
 3. Export dataset as **YOLO v8 (ZIP)**.  
 4. Extract images and labels for local training.  
 
-🔗 [Quick Steps Reference](https://github.com/Dhyanms/multiqr-hackathon/tree/main#quick-steps-1)
-
 ---
 
 ## Output Format
